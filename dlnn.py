@@ -147,7 +147,7 @@ def main():
         .format(average_precision["micro"]))
     
     fig = plt.gcf()
-    fig.savefig('plot_img/graph1.png')
+    fig.savefig('plot_img/graph_ap.png')
     
     
     
@@ -192,7 +192,7 @@ def main():
     
     
     plt.show()
-    fig.savefig('plot_img/graph.png')
+    fig.savefig('plot_img/graph_multiClass.png')
     
     
     #-------------------------------------------------------------------------
