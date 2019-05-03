@@ -120,7 +120,7 @@ def main():
     precision = dict()
     recall = dict()
     average_precision = dict()
-    for i in range(3):
+    for i in range(4):
         precision[i], recall[i], _ = precision_recall_curve(y_test[:, i],
                                                             y_pred[:, i])
         average_precision[i] = average_precision_score(y_test[:, i], y_pred[:, i])
