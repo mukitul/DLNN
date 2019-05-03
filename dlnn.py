@@ -175,7 +175,7 @@ def main():
     labels.append('micro-average Precision-recall (area = {0:0.2f})'
                   ''.format(average_precision["micro"]))
     
-    for i, color in zip(range(3), colors):
+    for i, color in zip(range(4), colors):
         l, = plt.plot(recall[i], precision[i], color=color, lw=2)
         lines.append(l)
         labels.append('Precision-recall for class {0} (area = {1:0.2f})'
