@@ -169,7 +169,6 @@ def main():
         plt.annotate('f1={0:0.1f}'.format(f_score), xy=(0.9, y[45] + 0.02))
     
     lines.append(l)
-    labels.append('iso-f1 curves')
     l, = plt.plot(recall["micro"], precision["micro"], color='gold', lw=2)
     lines.append(l)
     labels.append('micro-average Precision-recall (area = {0:0.2f})'
